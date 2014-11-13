@@ -22,8 +22,11 @@ public class weiboLauncher
 //		collection.getUserFromMongo();
 		
 		//get spamers
-		getSpamUser gSpamUser = new getSpamUser();
-		gSpamUser.getSpam("3764222901335238");
+//		getSpamUser gSpamUser = new getSpamUser();
+//		gSpamUser.getSpam("3764222901335238");
+		
+		getLiarTweetWithComment liar = new getLiarTweetWithComment();
+		liar.getLine();
 	}
 
 }
